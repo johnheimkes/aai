@@ -1,3 +1,4 @@
+/* @override http://bigjohn.com/client/aai/wp-content/themes/aai/style.css */
 /*
 Theme Name: AAI Business Services
 Theme URI: http://wordpress.org/
@@ -5,3 +6,101 @@ Description: AAI Business Services Custom Theme.
 Author: Markup Is Art
 Version: 1.0
 */
+@import url("css/reset.css");
+
+body {
+	background: #7c2128;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	background: url(images/header.gif);
+	width: 960px;
+	height: 155px;
+}
+
+#header h1 a{
+	background: url(images/logo.png) top left no-repeat;
+	text-indent: -9999px;
+	display: block;
+	width: 274px;
+	height: 155px;
+	float: left;
+}
+
+ul#nav {
+	float: left;
+	width: 960px;
+	list-style: none;
+	font-size: 14px;
+}
+
+ul#nav li {
+	background: #7c2128;
+	float: left;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-right: -1px;
+}
+ul#nav li a {
+	display: block;
+	float: left;
+	color: #bfbbbf;
+	text-decoration: none;
+}
+
+ul#nav li ul {
+	background: #7c2128;
+	margin-left: -10px;
+	float: left;
+	width: 100%;
+}
+
+ul#nav li ul li {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 100%;
+}
+
+
+/*ul#nav li ul{display: none;}*/
+ul#nav li:hover ul {
+	display: block;
+	border: 1px solid white;
+	position: absolute;
+	width: 217px;
+	margin-left: -10px;
+	margin-top: 24px;
+}
+ul#nav li a:hover {
+	text-decoration: underline;
+}
+ul#nav a.dropdown, ul#nav li.active a.dropdown {
+	padding-right: 20px;
+	background: url(images/dropdown.png) center right no-repeat;
+}
+
+
+
+ul#nav li.active {
+	background: #525052;
+	float: left;
+}
+
+
+#sidebar{
+	float: left;
+}
+#content {
+	float: left;
+}
+
+#footer {
+	clear: both;
+}

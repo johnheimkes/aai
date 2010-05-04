@@ -6,15 +6,16 @@
     <meta name="Robots" content="index,all" />
     <meta name="Keywords" content="Key Words" />
     <meta name="Description" content="Descritpion" />
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-    <script src="js/jquery.cycle.lite.js"></script>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" type="text/css" media="screen">
+
+    <script src="<?php bloginfo('stylesheet_directory'); ?>http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory'); ?>js/jquery.cycle.lite.js"></script>
     
   </head>
   <body>
     <div id="wrapper">
       <div id="header">
-        <h1>AAI Business Services</h1>
+        <h1><a href="<?php bloginfo('url') ?>">AAI Business Services</a></h1>
         <div id="search">
             <form action="?s" method="post" accept-charset="utf-8">
               <fieldset>
@@ -24,15 +25,15 @@
             </form>
         </div>
         <ul id="nav">
-          <li>
-            <a href="#">AAI Secure Docs</a>
+          <li class="active">
+            <a href="#" class="dropdown">AAI Secure Docs</a>
             <ul>
               <li><a href="#">Shredding and Recycling</a></li>
               <li><a href="#">Scanning and Data Entry</a></li>
             </ul>
           </li>
           <li>
-            <a href="#">Manufacturing and Production</a>
+            <a href="#" class="dropdown">Manufacturing and Production</a>
             <ul>
               <li><a href="#">Services Offered</a></li>
               <li><a href="#">Customer Testimonials</a></li>
@@ -47,6 +48,7 @@
             </ul>
           </li>
           <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
           <li class="subscribe"><img src="rssicon" alt="Subscribe."/></li>
         </ul>
       </div>

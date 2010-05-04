@@ -1,5 +1,5 @@
 <? get_header(); ?>
-<div id="sub_head">
+<!-- <div id="sub_head">
   <div id="photos">
     <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a>
     <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a>
@@ -7,7 +7,7 @@
     <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a>
     <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a>
   </div>
-</div>
+</div> -->
 
 <? get_sidebar(); ?>
 <div id="content">
