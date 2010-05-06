@@ -33,10 +33,10 @@
               <input type="submit" value="Subscribe" />
             </fieldset>
           </form>
-          
           <div class="subscribe">
             <img src="rssicon.png" alt="Subscribe" />
           </div>
+          <p>Copyright &copy; <?=date("Y");?> AccessAbility</p>
         </div>
         <div class="clear">&nbsp;</div>
       </div>  
