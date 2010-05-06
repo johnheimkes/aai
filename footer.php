@@ -38,6 +38,7 @@
             <img src="rssicon.png" alt="Subscribe" />
           </div>
         </div>
+        <div class="clear">&nbsp;</div>
       </div>  
     </div>
   </body>

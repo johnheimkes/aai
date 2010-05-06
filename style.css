@@ -23,6 +23,39 @@ body {
 	background: url(images/header.gif);
 	width: 960px;
 	height: 155px;
+	margin-top: 35px;
+}
+#search {
+	float: right;
+	margin-top: -28px;
+}
+
+#search_input {
+	width: 200px;
+}
+#search label {
+	float: left;
+	width: 22px;
+	height: 21px;
+	padding-right: 7px;
+	background: url(images/search.png) top left no-repeat;
+	display: block;
+	text-indent: -9999px;
+}
+#search input  {
+	color: #7c2128;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: white;
+	padding: 4px;
+	height: 15px;
+	border: none;
+}
+#search_button {
+	height: 22px !important;
+	background: #525052 !important;
+	color: white !important;
 }
 
 #header h1 a{
@@ -101,19 +134,49 @@ ul#nav li.active {
 	width: 205px;
 	margin: 40px;
 }
+.side_block {
+	padding: 10px;
+}
+.side_block h3 {
+	padding-bottom: 5px;
+}
 #content {
 	width: 600px;
 	float: left;
 	margin: 40px 0 0 0;
+	line-height: 110%;
 }
 h2.post-title a {
 	text-decoration: none;
 	color: #7c2128;
 	font-size: 20px;
 }
+h2.post-title {padding-bottom: 13px;}
+
 .post_content {
 	font-size: 12px;
 }
 #footer {
 	clear: both;
+	background: #525052;
+	width: 960px;
+	padding-bottom: 30px;
+}
+.clear {
+	clear: both;
+}
+.block {
+	float: left;
+	margin-left: 20px;
+}
+
+.block h4 {
+	color: #999;
+	padding: 10px;
+}
+.block a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #faf9ff;
 }

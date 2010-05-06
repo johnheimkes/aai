@@ -20,7 +20,7 @@
             <form action="?s" method="post" accept-charset="utf-8">
               <fieldset>
                 <label for="search_field">Search</label><input type="text" name="search" value="" id="search_field" />
-                <input type="submit" value="Search" />
+                <input type="submit" value="Search" id="search_button" />
               </fieldset>
             </form>
         </div>
