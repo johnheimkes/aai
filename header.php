@@ -7,9 +7,17 @@
     <meta name="Keywords" content="Key Words" />
     <meta name="Description" content="Descritpion" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" type="text/css" media="screen">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-    <script src="<?php bloginfo('stylesheet_directory'); ?>js/jquery.cycle.lite.js"></script>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.cycle.all.2.72.js"></script>
+    
+    <script type="text/javascript"> 
+    $(document).ready(function() {
+        $('.slideshow').cycle({
+    		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+    	});
+    });
+    </script>
     
   </head>
   <body>

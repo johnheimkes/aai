@@ -127,6 +127,12 @@ ul#nav li.active {
 	float: left;
 }
 
+.slideshow {
+	width: 960px;
+	height: 350px;
+	margin-top: 36px;
+	border-bottom: 10px solid #7c2128;
+}
 
 #sidebar{
 	float: left;
@@ -142,8 +148,9 @@ ul#nav li.active {
 	font-size: 20px;
 	color: #525052;
 }
-.side_block ul li {
+.side_block p {
 	font-size: 12px;
+	line-height: 150%;
 	color: #7c2128;
 }
 #content {
@@ -175,7 +182,6 @@ h2.post-title {padding-bottom: 13px;}
 	float: left;
 	margin-left: 20px;
 }
-
 .block h4 {
 	color: #999;
 	padding: 10px;
