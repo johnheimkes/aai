@@ -34,7 +34,7 @@
             </fieldset>
           </form>
           <div class="subscribe">
-            <img src="rssicon.png" alt="Subscribe" />
+            <img src="<?php bloginfo('template_url') ?>/images/rss.png" alt="Subscribe" />
           </div>
           <p>Copyright &copy; <?=date("Y");?> AccessAbility</p>
         </div>
