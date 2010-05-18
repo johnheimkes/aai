@@ -139,6 +139,12 @@ ul#nav li.active {
 }
 .side_block h3 {
 	padding-bottom: 5px;
+	font-size: 20px;
+	color: #525052;
+}
+.side_block ul li {
+	font-size: 12px;
+	color: #7c2128;
 }
 #content {
 	width: 600px;
