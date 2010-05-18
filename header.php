@@ -8,7 +8,7 @@
     <meta name="Description" content="Descritpion" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" type="text/css" media="screen">
 
-    <script src="<?php bloginfo('stylesheet_directory'); ?>http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
     <script src="<?php bloginfo('stylesheet_directory'); ?>js/jquery.cycle.lite.js"></script>
     
   </head>
@@ -49,6 +49,5 @@
           </li>
           <li><a href="#">Newsletter</a></li>
           <li><a href="#">Contact</a></li>
-          <li class="subscribe"><img src="rssicon" alt="Subscribe."/></li>
         </ul>
       </div>
