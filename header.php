@@ -34,28 +34,19 @@
         </div>
         <ul id="nav">
           <li class="active">
-            <a href="#" class="dropdown">AAI Secure Docs</a>
+            <a class="dropdown">AAI Secure Docs</a>
             <ul>
-              <li><a href="#">Shredding and Recycling</a></li>
-              <li><a href="#">Scanning and Data Entry</a></li>
+              <li><a href="<?php bloginfo('url') ?>/?page_id=40">Shredding and Recycling</a></li>
+              <li><a href="<?php bloginfo('url') ?>/?page_id=42">Scanning and Data Entry</a></li>
             </ul>
           </li>
           <li>
-            <a href="#" class="dropdown">Manufacturing and Production</a>
-            <ul>
-              <li><a href="#">Services Offered</a></li>
-              <li><a href="#">Customer Testimonials</a></li>
-              <li><a href="#">Offer of the Month</a></li>
-            </ul>
+            <a href="<?php bloginfo('url') ?>/?page_id=26">Manufacturing and Production</a>
           </li>
           <li>
-            <a href="#" target="_blank">Imagine Design</a>
-            <ul>
-              <li><a href="#">Quality Promise</a></li>
-              <li><a href="#">Story of Imagine Design</a></li>
-            </ul>
+            <a href="<?php bloginfo('url') ?>/?page_id=16">Janitorial and Food Service</a>
           </li>
-          <li><a href="#">Newsletter</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="<?php bloginfo('url') ?>/?page_id=3">On-site Employment</a></li>
+          <!-- <li><a href="#">Subscribe</a></li> -->
         </ul>
       </div>
