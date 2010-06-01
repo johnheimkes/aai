@@ -69,18 +69,19 @@ body {
 }
 
 ul#nav {
+	background: #7c2128;
 	float: left;
-	width: 960px;
+	width: 958px;
 	list-style: none;
 	font-size: 14px;
+	border: 1px solid #ccc;
 }
 
 ul#nav li {
 	background: #7c2128;
 	float: left;
 	padding: 10px;
-	border: 1px solid #ccc;
-	margin-right: -1px;
+	border-right: 1px solid #ccc;
 }
 ul#nav li a {
 	display: block;
@@ -123,8 +124,6 @@ ul#nav a.dropdown, ul#nav li.active a.dropdown {
 ul#nav ul {
 	z-index: 999 !important;
 }
-
-
 
 ul#nav li.active {
 	background: #525052;

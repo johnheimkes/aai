@@ -33,20 +33,21 @@
             </form>
         </div>
         <ul id="nav">
-          <li class="active">
+          <li<?php if ( is_page('home') ) { echo ' class="active"'; } ?>><a href="<?php bloginfo('url') ?>">Home</a></li>
+          <li>
             <a class="dropdown">AAI Secure Docs</a>
             <ul>
-              <li><a href="<?php bloginfo('url') ?>/?page_id=40">Shredding and Recycling</a></li>
-              <li><a href="<?php bloginfo('url') ?>/?page_id=42">Scanning and Data Entry</a></li>
+              <li<?php if ( is_page('40') ) { echo ' class="active"'; } ?>><a href="<?php bloginfo('url') ?>/?page_id=40">Shredding and Recycling</a></li>
+              <li<?php if ( is_page('42') ) { echo ' class="active"'; } ?>><a href="<?php bloginfo('url') ?>/?page_id=42">Scanning and Data Entry</a></li>
             </ul>
           </li>
-          <li>
+          <li <?php if ( is_page('26') ) { echo ' class="active"'; } ?>>
             <a href="<?php bloginfo('url') ?>/?page_id=26">Manufacturing and Production</a>
           </li>
-          <li>
+          <li<?php if ( is_page('16') ) { echo ' class="active"'; } ?>>
             <a href="<?php bloginfo('url') ?>/?page_id=16">Janitorial and Food Service</a>
           </li>
-          <li><a href="<?php bloginfo('url') ?>/?page_id=3">On-site Employment</a></li>
-          <!-- <li><a href="#">Subscribe</a></li> -->
+          <li<?php if ( is_page('3') ) { echo ' class="active"'; } ?>><a href="<?php bloginfo('url') ?>/?page_id=3">On-site Employment</a></li>
+          <li<?php if ( is_page('109') ) { echo ' class="active"'; } ?>><a href="<?php bloginfo('url') ?>/?page_id=109">Contact</a></li>
         </ul>
       </div>
