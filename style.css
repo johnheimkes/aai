@@ -176,22 +176,46 @@ h2.post-title {padding-bottom: 13px;}
 	clear: both;
 	background: #525052;
 	width: 960px;
-	padding-bottom: 30px;
+	padding-bottom: 5px;
 }
 .clear {
 	clear: both;
 }
 .block {
-	float: left;
-	margin-left: 20px;
+	float: right;
+	margin-right: 20px;
 }
 .block h4 {
 	color: #999;
-	padding: 10px;
+	padding: 10px 10px 10px 7px;
+	font-size: 13px;
+	color: #faf9ff;
+	font-weight: normal;
 }
 .block a {
 	padding: 10px;
 	text-decoration: none;
-	font-size: 13px;
-	color: #faf9ff;
+}
+.block fieldset {
+}
+.block label {padding: 2px;}
+.block input {
+	color: #7c2128;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: white;
+	padding: 4px;
+	height: 15px;
+	border: none;
+}
+.block #submit {
+	height: 22px !important;
+	background: #7c2128 !important;
+	color: white !important;
+}
+#footer p {
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
 }
