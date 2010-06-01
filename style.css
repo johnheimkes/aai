@@ -162,10 +162,33 @@ ul#nav li.active {
 	margin: 40px 0 0 0;
 	line-height: 110%;
 }
+#contact-page {
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 0;
+	line-height: 110%;
+}
+#contact {
+	float: left;
+	width: 350px;
+}
+#request {
+	float: left;
+	width: 500px;
+}
+#contact {
+	padding-left: 60px;
+}
 h2.post-title a {
 	text-decoration: none;
 	color: #7c2128;
 	font-size: 20px;
+}
+h2#contact-heading {
+	text-decoration: none;
+	color: #7c2128;
+	font-size: 20px;
+	padding-bottom: 14px;
 }
 h2.post-title {padding-bottom: 13px;}
 
