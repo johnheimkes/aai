@@ -173,6 +173,8 @@ h2.post-title {padding-bottom: 13px;}
 .post_content {font-size: 12px;}
 .post_content h4 {padding: 10px 0;}
 .post_content p {margin-bottom: 10px;}
+.post_content a {color: #7c2128;}
+.post_content a:hover {color: #f84c5a;}
 
 ul.bullets {
 	margin-bottom: 10px;
