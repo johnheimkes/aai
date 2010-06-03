@@ -6,13 +6,11 @@ TEMPLATE NAME: Home
 
 <? get_header(); ?>
 <div id="sub_head">
-  <div class="slideshow">
-    <a href="#"><img src="<?php bloginfo('template_url') ?>/images/huge_pic.jpg" alt="This is some awesome text!" /></a>
-    <a href="#"><img src="<?php bloginfo('template_url') ?>/images/huge_pic2.jpg" alt="This is some more awesome text!" /></a>
-    <!-- <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a>
-    <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a>
-    <a href="#"><img src="photo1.jpg" alt="Description of photo" /></a> -->
-  </div>
+  <?php query_posts("showposts=1&cat=3"); ?>
+    <? while (have_posts()) : the_post(); ?>
+        <? the_content(); ?>
+    <? endwhile;?>
+  <?php wp_reset_query(); ?>
 </div>
 
 <? get_sidebar(); ?>
