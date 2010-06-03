@@ -26,15 +26,16 @@
 
         <div class="block">
           <h4>Subscribe to Newsletter</h4>
-          <form>
-            <fieldset>
-              <label for="subscribe"></label><input type="text" name="subscribe" value="E-Mail Address" id="subscribe" />
-              
-              <input id="submit" type="submit" value="Subscribe" />
-            </fieldset>
-          </form>
           <div class="subscribe">
              <img src="<?php bloginfo('template_url') ?>/images/rss.png" alt="Subscribe" />
+          </div>
+          <div id="form">
+            <form>
+              <fieldset>
+                <label for="subscribe"></label><input type="text" name="subscribe" value="E-Mail Address" id="subscribe" />
+                <input id="submit" type="submit" value="Subscribe" />
+              </fieldset>
+            </form>
           </div>
           
         </div>
